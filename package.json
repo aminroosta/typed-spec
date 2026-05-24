@@ -1,0 +1,14 @@
+{
+  "name": "typed-spec",
+  "version": "0.0.1",
+  "description": "TypeScript-only API documentation types inspired by TypeSpec.",
+  "homepage": "https://github.com/aminroosta/typed-spec#readme",
+  "bugs": {
+    "url": "https://github.com/aminroosta/typed-spec/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminroosta/typed-spec.git"
+  },
+  "license": "MIT"
+}
