@@ -1,4 +1,4 @@
-# typespec-to-typescript
+# typed-spec
 
 TypeScript-only API documentation types inspired by TypeSpec.
 
@@ -7,7 +7,7 @@ not for code generation. Instead of writing `.tsp`, write `.ts` or `.d.ts` files
 containing only type declarations:
 
 ```ts
-import type {} from "typespec-to-typescript";
+import type {} from "typed-spec";
 
 export type UsersApi = route<"/users", {
   read: get<(id: path<uuid>, includeDeleted?: query<boolean>) => ok<User> | notFound<ApiError>>;
@@ -22,7 +22,7 @@ package is listed once in `compilerOptions.types`, even that line can be omitted
 ```json
 {
   "compilerOptions": {
-    "types": ["typespec-to-typescript"]
+    "types": ["typed-spec"]
   }
 }
 ```
