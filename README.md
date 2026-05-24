@@ -27,16 +27,6 @@ package is listed once in `compilerOptions.types`, even that line can be omitted
 }
 ```
 
-## Approach
-
-The package mirrors the vocabulary from the TypeSpec libraries where it makes sense.
-
-- `@typespec/http`: `route`, HTTP verbs, parameters, bodies, status responses.
-- `@typespec/rest`: resources, auto routes, resource operations, actions.
-- `@typespec/events`: event unions, content types, event payload data.
-- `@typespec/sse`: terminal events.
-- `@typespec/streams`: stream payload types.
-
 ## HTTP
 
 ```ts
