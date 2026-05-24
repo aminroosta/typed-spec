@@ -1,7 +1,22 @@
 {
   "name": "typed-spec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript-only API documentation types inspired by TypeSpec.",
+  "type": "module",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "index.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "tsc --noEmit -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
   "homepage": "https://github.com/aminroosta/typed-spec#readme",
   "bugs": {
     "url": "https://github.com/aminroosta/typed-spec/issues"
@@ -10,5 +25,8 @@
     "type": "git",
     "url": "git+https://github.com/aminroosta/typed-spec.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
