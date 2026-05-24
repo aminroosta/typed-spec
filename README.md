@@ -2,6 +2,12 @@
 
 TypeScript-only API documentation types inspired by TypeSpec.
 
+[npm](https://www.npmjs.com/package/typed-spec)
+
+```sh
+npm install typed-spec
+```
+
 This package is for projects where TypeSpec is only used as documentation source,
 not for code generation. Instead of writing `.tsp`, write `.ts` or `.d.ts` files
 containing only type declarations:
